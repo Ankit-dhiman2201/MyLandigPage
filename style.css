@@ -1,0 +1,71 @@
+/* navbar styles start */
+.navbar{
+  background-color: lightblue;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.navbar> .nav-brand{
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+.navbar > .nav-link{
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.navbar > .nav-link > #nav-item1{
+  color: gray;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar > .nav-link > #nav-item2{
+ background-color:rgb(0, 170, 255);
+ padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(244, 236, 236);
+}
+/* navbar style ends */
+/* Home Style Start */
+.home{
+  background:linear-gradient(to left, lightblue,rgb(98, 98, 206),rgb(50, 50, 212));
+  height: 40vh;
+  display: flex; 
+
+}
+.home>.home-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+}
+.home>.home-right{
+  height: 100%;
+  width: 50%;
+  background-image: url("./street.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.home>.home-left> button{
+  background-color: aquamarine;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.home>.home-left> p{
+  margin: 0;
+}
+
+/* Home Style ends */
